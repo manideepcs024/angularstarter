@@ -1,7 +1,6 @@
 (function () {
   'use strict';
   angular.module('Cmm.Configs').config(routesProvider);
-
   function routesProvider ($stateProvider, $urlRouterProvider, $locationProvider) {
     $stateProvider.state('test', {
       url: '/test',
